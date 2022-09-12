@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-size: 25px;
+  
+}
+
+
+ul {
+ 
+  margin: 0;
+  padding: 0;
+   
+  
+  
+}
+a {
+  text-decoration: none;
+  color: wheat;
+  
+}
+li {
+  list-style-type: none;
+   padding: 12px 25px 12px 25px ;
+   border: 1px solid rgb(47, 40, 40);
+   
+}
+
+/* The sidebar menu */
+.navsidebar {
+  background-color: rgb(34, 3, 3);
+  position: fixed;/* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0;/* Stay at the top */
+  left: 0;
+  width: 320px;/* Set the width of the sidebar */
+  height: 100%;/* Full-height: remove this if you want "auto" height */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 35px;
+
+  
+
+}
+.main {
+  margin-left: 320px;
+  padding: 0 10px;
+}
+.navsidebar a {
+  display: block;
+}
+
+
+.navsidebar a:hover{
+  color: rgb(144, 67, 67)
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+ 
+@media screen and (max-height: 450px) {
+  .navsidebar {padding-top: 15px;}
+  .navsidebar a {font-size: 18px;}
+}
